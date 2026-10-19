@@ -1,0 +1,83 @@
+[
+  {
+    "id": "palace-model",
+    "title": "Dinh Doc Lap Independence Palace",
+    "author": "Hoàng Huy",
+    "license": "CC Attribution (theo hồ sơ người tải)",
+    "url": "https://sketchfab.com/3d-models/dinh-doc-lap-independence-palace-2c4905c6a1fd4fb18981886a77ba4fa9",
+    "verifiedAt": "2026-10-19",
+    "verification": "File kiểm tra cục bộ; giấy phép theo người dùng, trang Sketchfab chưa truy xuất lại được."
+  },
+  {
+    "id": "palace-gate",
+    "title": "Entrance building",
+    "author": "Matti Blume",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Independence_Palace,_Ho_Chi_Minh_(LRM_20230823_093633).jpg",
+    "file": "data/model_3D/dinh-doc-lap-independence-palace/Images_outSource/Entrance building — Matti Blume.jpg",
+    "capturedAt": "2023-08-23",
+    "verifiedAt": "2026-10-19",
+    "cameraLocation": {
+      "longitude": 106.696869,
+      "latitude": 10.777933,
+      "wkid": 4326
+    },
+    "verification": "Nguồn/giấy phép/tọa độ máy ảnh đối chiếu Wikimedia; bản local 1920px, chưa đối chiếu checksum với bản gốc."
+  },
+  {
+    "id": "palace-fountain",
+    "title": "Independence Palace fountain-2",
+    "author": "Balon Greyjoy",
+    "license": "CC0 1.0",
+    "url": "https://commons.wikimedia.org/wiki/File:20190923_Independence_Palace_fountain-2.jpg",
+    "file": "data/model_3D/dinh-doc-lap-independence-palace/Images_outSource/Independence Palace fountain-2 — Balon Greyjoy.jpg",
+    "capturedAt": "2019-09-23",
+    "verifiedAt": "2026-10-19",
+    "cameraLocation": {
+      "longitude": 106.6957,
+      "latitude": 10.77729,
+      "wkid": 4326
+    },
+    "verification": "Nguồn/giấy phép/tọa độ máy ảnh đối chiếu Wikimedia; bản local 1920px, chưa đối chiếu checksum với bản gốc."
+  },
+  {
+    "id": "palace-front",
+    "title": "Independence Palace-1",
+    "author": "Balon Greyjoy",
+    "license": "CC0 1.0",
+    "url": "https://commons.wikimedia.org/wiki/File:20190923_Independence_Palace-1.jpg",
+    "file": "data/model_3D/dinh-doc-lap-independence-palace/Images_outSource/Independence Palace-1 — Balon Greyjoy.jpg",
+    "capturedAt": "2019-09-23",
+    "verifiedAt": "2026-10-19",
+    "cameraLocation": {
+      "longitude": 106.696658,
+      "latitude": 10.777549,
+      "wkid": 4326
+    },
+    "verification": "Nguồn/giấy phép/tọa độ máy ảnh đối chiếu Wikimedia; bản local 1920px, chưa đối chiếu checksum với bản gốc."
+  },
+  {
+    "id": "palace-architecture",
+    "title": "Kiến trúc Dinh Độc Lập",
+    "author": "Di tích lịch sử Dinh Độc Lập",
+    "license": "Tham chiếu; nội dung diễn giải",
+    "url": "https://dinhdoclap.gov.vn/kien-truc-dinh-doc-lap/",
+    "verifiedAt": "2026-10-19"
+  },
+  {
+    "id": "palace-map",
+    "title": "Sơ đồ tham quan",
+    "author": "Di tích lịch sử Dinh Độc Lập",
+    "license": "Chỉ đối chiếu; chưa xác nhận quyền tái xuất bản",
+    "url": "https://dinhdoclap.gov.vn/tham-quan/",
+    "verifiedAt": "2026-10-19"
+  },
+  {
+    "id": "legacy-places",
+    "title": "Dữ liệu POI kế thừa của demo",
+    "author": "GIS_LEARNING",
+    "license": "Nội dung dự án",
+    "url": "./data/places.json",
+    "verification": "Tọa độ và mô tả kế thừa, chưa khảo sát độ chính xác."
+  }
+]

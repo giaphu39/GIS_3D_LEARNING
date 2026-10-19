@@ -1,0 +1,47 @@
+# ==========================================
+# Repositories cloned for reference
+# ==========================================
+/esri-reference/
+/IE402.P11.Group6-RE-price-HCM-City/
+# ==========================================
+# Heavy Raw 3D Assets & Textures (~180MB+)
+# (Giữ lại Images_outSource vì web dùng cho photo tour)
+# ==========================================
+virtual-tourism-demo/data/model_3D/**/source/
+virtual-tourism-demo/data/model_3D/**/textures/
+# ==========================================
+# Environment Variables & Secrets (ArcGIS/Map tokens)
+# ==========================================
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+# ==========================================
+# Python (scripts/prepare_model.py, etc.)
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+# ==========================================
+# Node.js & Web builds
+# ==========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+.cache/
+# ==========================================
+# OS & Editor specific files
+# ==========================================
+Thumbs.db
+ehthumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/

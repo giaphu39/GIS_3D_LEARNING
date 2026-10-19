@@ -1,0 +1,12 @@
+[
+  {
+    "id": "saigon-landmarks",
+    "name": "Khám phá ba địa điểm Sài Gòn",
+    "stops": [
+      { "placeId": "p1", "camera": { "heading": 0, "tilt": 45, "scale": 3500 } },
+      { "placeId": "p2", "camera": { "heading": 60, "tilt": 55, "scale": 2500 } },
+      { "placeId": "p3", "camera": { "heading": 150, "tilt": 45, "scale": 3000 } }
+    ],
+    "route": null
+  }
+]

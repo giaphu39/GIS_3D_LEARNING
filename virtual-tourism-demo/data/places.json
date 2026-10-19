@@ -1,0 +1,52 @@
+[
+  {
+    "id": "p1",
+    "name": "Dinh Độc Lập",
+    "longitude": 106.695328,
+    "latitude": 10.776889,
+    "description": "Di tích lịch sử nổi tiếng tại TP.HCM, từng là nơi ở và làm việc của Tổng thống Việt Nam Cộng hòa, nơi đánh dấu sự kiện giải phóng miền Nam năm 1975.",
+    "image": "data/model_3D/dinh-doc-lap-independence-palace/Images_outSource/Independence Palace-1 — Balon Greyjoy.jpg",
+    "visitMinutes": 90,
+    "sourceId": "palace-architecture",
+    "datasetKind": "real",
+    "tourId": "tour-palace",
+    "model": {
+      "url": "data/models/dinh-doc-lap.glb",
+      "longitude": 106.695328,
+      "latitude": 10.776889,
+      "elevationMeters": 0,
+      "heightMode": "relative-to-ground",
+      "headingDegrees": 45,
+      "scale": 1,
+      "sourceId": "palace-model",
+      "placementStatus": "approximate",
+      "placementNote": "Neo tại POI kế thừa; mặt tiền hướng Đông Bắc theo sơ đồ chính thức. Chưa khảo sát tọa độ/tỷ lệ chính xác."
+    }
+  },
+  {
+    "id": "p2",
+    "name": "Nhà thờ Đức Bà",
+    "longitude": 106.699017,
+    "latitude": 10.779785,
+    "description": "Công trình kiến trúc Công giáo mang phong cách Roman pha trộn Gothic, một trong những biểu tượng đặc trưng của Sài Gòn do người Pháp xây dựng.",
+    "image": null,
+    "visitMinutes": 30,
+    "sourceId": "legacy-places",
+    "datasetKind": "real",
+    "tourId": null,
+    "model": null
+  },
+  {
+    "id": "p3",
+    "name": "Chợ Bến Thành",
+    "longitude": 106.69802,
+    "latitude": 10.77252,
+    "description": "Ngôi chợ lâu đời và nổi tiếng nhất Sài Gòn, nơi bán đa dạng các mặt hàng từ thực phẩm, đồ thủ công mỹ nghệ đến quần áo.",
+    "image": null,
+    "visitMinutes": 60,
+    "sourceId": "legacy-places",
+    "datasetKind": "real",
+    "tourId": null,
+    "model": null
+  }
+]

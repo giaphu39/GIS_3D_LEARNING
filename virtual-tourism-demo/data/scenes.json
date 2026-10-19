@@ -1,0 +1,98 @@
+[
+  {
+    "id": "palace-gate",
+    "tourId": "tour-palace",
+    "name": "Khu vực cổng — nhìn từ bên ngoài",
+    "type": "image",
+    "imageUrl": "data/model_3D/dinh-doc-lap-independence-palace/Images_outSource/Entrance building — Matti Blume.jpg",
+    "sourceId": "palace-gate",
+    "hotspots": [
+      {
+        "id": "gate-to-yard",
+        "kind": "navigation",
+        "label": "Xem sân và đài phun nước",
+        "position": {
+          "x": 0.77,
+          "y": 0.59
+        },
+        "targetSceneId": "palace-yard"
+      }
+    ]
+  },
+  {
+    "id": "palace-yard",
+    "tourId": "tour-palace",
+    "name": "Sân và đài phun nước — nhìn ra cổng",
+    "type": "image",
+    "imageUrl": "data/model_3D/dinh-doc-lap-independence-palace/Images_outSource/Independence Palace fountain-2 — Balon Greyjoy.jpg",
+    "sourceId": "palace-fountain",
+    "hotspots": [
+      {
+        "id": "yard-to-gate",
+        "kind": "navigation",
+        "label": "Trở về ảnh khu cổng",
+        "position": {
+          "x": 0.53,
+          "y": 0.6
+        },
+        "targetSceneId": "palace-gate"
+      },
+      {
+        "id": "yard-to-front",
+        "kind": "navigation",
+        "label": "Đổi góc nhìn: mặt tiền Dinh",
+        "position": {
+          "x": 0.82,
+          "y": 0.8
+        },
+        "targetSceneId": "palace-front"
+      },
+      {
+        "id": "yard-info",
+        "kind": "info",
+        "label": "Không gian phía trước Dinh",
+        "position": {
+          "x": 0.46,
+          "y": 0.73
+        },
+        "title": "Cảnh quan trước Dinh",
+        "text": "Thảm cỏ oval phía trước là một phần của bố cục cảnh quan Dinh. Ảnh này nhìn từ phía công trình ra đài phun nước và trục đường phía cổng.",
+        "sourceId": "palace-architecture",
+        "audioUrl": null
+      }
+    ]
+  },
+  {
+    "id": "palace-front",
+    "tourId": "tour-palace",
+    "name": "Mặt tiền Dinh Độc Lập",
+    "type": "image",
+    "imageUrl": "data/model_3D/dinh-doc-lap-independence-palace/Images_outSource/Independence Palace-1 — Balon Greyjoy.jpg",
+    "sourceId": "palace-front",
+    "hotspots": [
+      {
+        "id": "front-to-yard",
+        "kind": "navigation",
+        "label": "Trở về ảnh đài phun nước",
+        "position": {
+          "x": 0.89,
+          "y": 0.68
+        },
+        "targetSceneId": "palace-yard"
+      },
+      {
+        "id": "front-architecture",
+        "kind": "info",
+        "label": "Kiến trúc và rèm hoa đá",
+        "position": {
+          "x": 0.39,
+          "y": 0.53
+        },
+        "title": "Kiến trúc sư Ngô Viết Thụ",
+        "text": "Dinh do kiến trúc sư Ngô Viết Thụ thiết kế, khởi công ngày 01/07/1962 và khánh thành ngày 31/10/1966. Rèm hoa đá quanh tầng 2 gợi hình đốt trúc và giúp điều hòa ánh sáng tự nhiên.",
+        "sourceId": "palace-architecture",
+        "audioUrl": null
+      }
+    ]
+  }
+]

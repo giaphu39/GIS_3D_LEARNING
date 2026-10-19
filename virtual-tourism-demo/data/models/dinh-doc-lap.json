@@ -1,0 +1,40 @@
+{
+  "sourceBytes": 91793476,
+  "webBytes": 21125036,
+  "sourceBoundsAfterNodeTransform": [
+    [
+      -63.318181780651145,
+      -0.30421814188719054,
+      12.836378129094314
+    ],
+    [
+      95.50218445089575,
+      29.46270325775879,
+      234.46399787398238
+    ]
+  ],
+  "mainBuildingBounds": [
+    [
+      -27.31556995306984,
+      0.05304708887462084,
+      12.836378129094314
+    ],
+    [
+      59.001437937282766,
+      26.905532545853077,
+      93.22828425849859
+    ]
+  ],
+  "originBeforeNormalization": [
+    15.842933992106463,
+    -0.30421814188719054,
+    53.03233119379645
+  ],
+  "removed": [
+    "white-cloud-blue-sky-sea backdrop"
+  ],
+  "maxTexturePixels": 1024,
+  "units": "meters (approximate source model)",
+  "front": "north before headingDegrees",
+  "placementStatus": "approximate; not a surveyed georeference"
+}

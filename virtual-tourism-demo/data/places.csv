@@ -1,0 +1,4 @@
+place_id,name,longitude,latitude,description,visit_minutes
+demo-01,Diem demo A,106.7000,10.7800,Diem minh hoa A,15
+demo-02,Diem demo B,106.7010,10.7810,Diem minh hoa B,20
+demo-03,Diem demo C,106.7020,10.7800,Diem minh hoa C,10

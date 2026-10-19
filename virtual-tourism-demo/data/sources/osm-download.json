@@ -1,0 +1,6 @@
+{
+  "retrievedAtUTC": "2026-10-16T17:09:25.284274+00:00",
+  "endpoint": "https://overpass-api.de/api/interpreter",
+  "query": "[out:json][timeout:60];\nway[\"highway\"~\"^(primary|secondary|tertiary|residential|unclassified|living_street|primary_link|secondary_link|tertiary_link)$\"](10.768,106.690,10.784,106.706);\n(._;>;);\nout body;\n",
+  "sha256": "87e2e20471bfdc44944b59081f146aa9c6938164836daec88a0f1054d5a8f4b6"
+}

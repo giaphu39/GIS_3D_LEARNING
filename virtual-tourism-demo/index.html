@@ -1,0 +1,94 @@
+﻿<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Demo du lịch GIS 3D</title>
+    <link rel="stylesheet" href="./src/styles.css" />
+    <script type="module" src="./src/main.js"></script>
+  </head>
+  <body>
+    <header class="app-header">
+      <h1>Khám phá địa điểm</h1>
+      <p>Chọn một điểm trên bản đồ hoặc trong danh sách để xem chi tiết.</p>
+    </header>
+    <main class="app-layout">
+      <aside class="sidebar" aria-label="Thông tin địa điểm">
+        <section aria-labelledby="tour-heading">
+          <h2 id="tour-heading">Tour camera giữa các địa điểm</h2>
+          <label for="tour-select">Chọn tour</label>
+          <select id="tour-select" disabled></select>
+          <p id="tour-status" role="status" aria-live="polite">Đang chờ bản đồ sẵn sàng…</p>
+          <p id="tour-progress" aria-live="polite">Chưa bắt đầu</p>
+          <p id="tour-introduction"></p>
+          <p id="tour-route-note" class="search-hint" hidden></p>
+          <div class="tour-controls" role="group" aria-label="Điều khiển tour">
+            <button id="tour-start" type="button" disabled>Bắt đầu</button>
+            <button id="tour-previous" type="button" disabled>Trước</button>
+            <button id="tour-next" type="button" disabled>Tiếp theo</button>
+            <button id="tour-end" type="button" disabled>Kết thúc</button>
+          </div>
+        </section>
+        <section aria-labelledby="network-heading">
+          <h2 id="network-heading">Tìm đường trên mạng</h2>
+          <p class="search-hint">Tính tuyến theo chiều dài mạng đường, độc lập với tour chuyển góc nhìn.</p>
+          <label for="network-from">Nút đầu</label>
+          <select id="network-from" disabled></select>
+          <label for="network-to">Nút cuối</label>
+          <select id="network-to" disabled></select>
+          <div class="tour-controls">
+            <button id="network-find" type="button" disabled>Tìm tuyến ngắn nhất</button>
+            <button id="network-clear" type="button" disabled>Xóa tuyến tính toán</button>
+          </div>
+          <p id="network-status" role="status" aria-live="polite">Đang chờ bản đồ sẵn sàng…</p>
+          <p id="network-result" aria-live="polite"></p>
+          <p id="network-source" class="search-hint"></p>
+          <p class="search-hint">Xanh liền: tuyến tính toán trên mạng. Cam nét đứt: đường nối minh họa của tour.</p>
+        </section>
+        <section aria-labelledby="places-heading" aria-busy="true" id="places-section">
+          <h2 id="places-heading">Danh sách địa điểm</h2>
+          <label for="place-search">Tìm theo tên địa điểm</label>
+          <input id="place-search" type="search" placeholder="Ví dụ: dinh doc lap"
+            aria-controls="places-list" aria-describedby="search-hint" disabled />
+          <p id="search-hint" class="search-hint">Có thể nhập không dấu. Nhấn Enter để chọn kết quả đầu tiên.</p>
+          <p id="search-status" role="status" aria-live="polite" hidden></p>
+          <p id="status" role="status" aria-live="polite">Đang tải dữ liệu và bản đồ…</p>
+          <ul id="places-list" class="places-list"></ul>
+        </section>
+        <section aria-labelledby="details-heading">
+          <h2 id="details-heading">Chi tiết địa điểm</h2>
+          <div id="place-details" aria-live="polite"><p>Chưa chọn địa điểm.</p></div>
+        </section>
+      </aside>
+      <section class="map-panel" aria-label="Bản đồ du lịch 3D">
+        <arcgis-scene item-id="c7400d08c9d546808961e3f01e201857">
+          <arcgis-zoom slot="top-left"></arcgis-zoom>
+          <arcgis-navigation-toggle slot="top-left"></arcgis-navigation-toggle>
+          <arcgis-compass slot="top-left"></arcgis-compass>
+        </arcgis-scene>
+        <p id="map-status" class="map-status" role="status" hidden></p>
+      </section>
+    </main>
+    <dialog id="photo-tour" aria-labelledby="photo-title">
+      <header class="photo-header">
+        <div><h2 id="photo-title"></h2><p id="photo-scene" aria-live="polite"></p></div>
+        <button id="photo-close" type="button" autofocus>Thoát tour</button>
+      </header>
+      <p id="photo-description" class="search-hint"></p>
+      <nav id="photo-scenes" class="tour-controls" aria-label="Các cảnh trong tour"></nav>
+      <div id="photo-viewport" class="photo-viewport"><div id="photo-stage" class="photo-stage"></div></div>
+      <section id="photo-info" class="photo-info" aria-label="Thông tin hotspot" hidden></section>
+      <footer>
+        <div class="tour-controls">
+          <button id="photo-back" type="button" disabled>Quay lại cảnh trước</button>
+          <button id="photo-retry" type="button" hidden>Thử tải lại ảnh</button>
+          <button id="photo-zoom-out" type="button">Thu nhỏ ảnh</button>
+          <button id="photo-zoom-in" type="button">Phóng to ảnh</button>
+          <button id="photo-zoom-reset" type="button">Vừa khung</button>
+        </div>
+        <p id="photo-status" role="status" aria-live="polite"></p>
+        <p id="photo-credit" class="search-hint"></p>
+      </footer>
+    </dialog>
+  </body>
+</html>
